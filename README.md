@@ -10,6 +10,7 @@ Flow chart of the Booth Multiplier algorithm:
 ASMD for Booth multiplier algorithm:
 ![image](https://github.com/Mithara99/Verilog-Booth-Multiplier/assets/109811098/5725b7ac-0602-43be-8e77-966f0d76a00f)
 
+Simulation Results:
 ![Simulation Result](https://github.com/Mithara99/Verilog-Booth-Multiplier/assets/109811098/6f21bc3b-341b-4970-b22f-e1484b74bcc0)
 
 
