@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 13 19:58:19 2023
+# Process ID: 960
+# Current directory: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17064 E:\Semester\Semester 6\Digital System Design\Mini Project\Team Logic Flow\Verilog Codes\Booth_Multiplier\Booth_Multiplier.xpr
+# Log file: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/vivado.log
+# Journal file: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.xpr}
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+write_schematic -format pdf -orientation portrait E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/schematic.pdf
+launch_simulation
+open_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+source TestBench.tcl
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+close_sim

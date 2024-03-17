@@ -1,0 +1,119 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jan 13 19:58:19 2023
+# Process ID: 960
+# Current directory: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17064 E:\Semester\Semester 6\Digital System Design\Mini Project\Team Logic Flow\Verilog Codes\Booth_Multiplier\Booth_Multiplier.xpr
+# Log file: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/vivado.log
+# Journal file: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier'
+INFO: [Project 1-313] Project file moved from 'E:/Semester/Semester 6/Digital System Design/Mini Project/Verilog Codes/Booth_Multiplier' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 807.602 ; gain = 68.133
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Fri Jan 13 20:00:00 2023] Launched impl_1...
+Run output will be captured here: E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.166 . Memory (MB): peak = 1113.574 ; gain = 0.074
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.177 . Memory (MB): peak = 1113.574 ; gain = 0.074
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:36 ; elapsed = 00:00:31 . Memory (MB): peak = 1218.547 ; gain = 382.910
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+write_schematic -format pdf -orientation portrait E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/schematic.pdf
+ERROR: [Common 17-165] Too many positional options when parsing 'Flow/schematic.pdf', please type 'write_schematic -help' for usage info.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TestBench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj TestBench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.srcs/sources_1/new/Booth_Multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth_Multiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 80baa4b01c32412c8a363f02d90579e6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot TestBench_behav xil_defaultlib.TestBench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Booth_Multiplier
+Compiling module xil_defaultlib.TestBench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot TestBench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/Booth_Multiplier.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TestBench_behav -key {Behavioral:sim_1:Functional:TestBench} -tclbatch {TestBench.tcl} -view {{E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+source TestBench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+                   0Multiplier=  4,Multiplicand=  3,vpulse=0,FinalValue=   0
+                  20Multiplier=  4,Multiplicand=  3,vpulse=0,FinalValue=   4
+                  30Multiplier=  4,Multiplicand=  3,vpulse=0,FinalValue=   2
+                  40Multiplier=  4,Multiplicand=  3,vpulse=0,FinalValue=   1
+                  50Multiplier=  4,Multiplicand=  3,vpulse=0,FinalValue= -24
+                  60Multiplier=  4,Multiplicand=  3,vpulse=1,FinalValue=  12
+                  70Multiplier= -3,Multiplicand=  5,vpulse=0,FinalValue=  13
+                  80Multiplier= -3,Multiplicand=  5,vpulse=0,FinalValue= -34
+                  90Multiplier= -3,Multiplicand=  5,vpulse=0,FinalValue=  23
+                 100Multiplier= -3,Multiplicand=  5,vpulse=0,FinalValue= -29
+                 110Multiplier= -3,Multiplicand=  5,vpulse=1,FinalValue= -15
+                 120Multiplier= -3,Multiplicand=  5,vpulse=0,FinalValue=   0
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TestBench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1711.023 ; gain = 20.160
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+save_wave_config {E:/Semester/Semester 6/Digital System Design/Mini Project/Team Logic Flow/Verilog Codes/Booth_Multiplier/TestBench_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 13 20:05:28 2023...
